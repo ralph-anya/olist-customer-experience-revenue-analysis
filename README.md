@@ -28,5 +28,5 @@ This SQL-based analysis connects revenue trends, delivery performance, customer 
 
 ### Data Importation
 
- * Created raltional tables
+ * Created relational tables
  * Defined appropriate data types
