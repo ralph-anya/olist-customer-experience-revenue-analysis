@@ -32,3 +32,9 @@ This SQL-based analysis connects revenue trends, delivery performance, customer 
  * Defined appropriate data types
 
 ***provide a screenshotted example here***
+
+### Data Cleaning
+
+ * Checked NULL values
+ * Checked duplicates in primary keys
+ * Validated relationships between tables
