@@ -1,4 +1,4 @@
--- 1. Create customers table
+-- 1. Create and populate customers table
 
 CREATE TABLE customers (
 customer_id VARCHAR(50),
@@ -16,7 +16,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 
--- 2. Creating orders table and populating table. 
+-- 2. Create orders table. 
 
 CREATE TABLE orders (
 order_id VARCHAR(50),
