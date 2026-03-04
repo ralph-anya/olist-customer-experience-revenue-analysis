@@ -3,6 +3,7 @@
 ## Business Problem
 
 Olist is a Brazilian e-commerce marketplace connecting small businnesses to customers. This project investigates how customer experience indicators (delivery performance and review scores) influence revenue performance and sustainability within the Olist marketplace.
+
 This SQL-based analysis connects revenue trends, delivery performance, customer satisfaction and repeat purchase behaviour.
 
 ## Business Questions
