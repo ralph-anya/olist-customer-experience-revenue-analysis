@@ -33,8 +33,31 @@ This SQL-based analysis connects revenue trends, delivery performance, customer 
 
 ***provide a screenshotted example here***
 
-### Data Cleaning
+### Data Cleaning & Validation
 
- * Checked NULL values
- * Checked duplicates in primary keys
- * Validated relationships between tables
+ **1. Duplicate and Primary Key Validation**
+ 
+To ensure transactional integrity and prevent revenue distortion, primary identifiers were validated across all relevant tables.
+
+ * Checked uniqueness of primary keys in:
+     * customers
+     * orders
+     * order_reviews
+ * Verified that no duplicate primary keys existed.
+ * For order_items table, where one order can contain multiple products:
+     * A composite key (order_id, order_item_id) was used.
+     * Uniqueness of the composite key was validated.
+     * Confirmed no duplicate composite records.
+
+  **2. NULL Value Assessment and Handling**
+
+Columns were checked for nulls based on analytical impact. Primary and foreign keys were validated for completeness to preserve relational integrity. Other fields related to revenue and customer experience, such as price, freight_value, review_score, delivery_timestamps, were checked for missing values due to their influence on KPI calculations.
+
+ * No NULL values existed in primary keys, price, freight_value and review_scores fields.
+ * Identified NULLs in delivery dates. Almost all NULL delivery dates corresponded to orders not yet delivered, and these records were excluded from delivery performance analysis (An insignificant percentage (0.0083%) of NULL delivery dates had delivered orders, which was ignored during analysis). Revenue calculations included completed orders only.
+ * Analytical filtering was applied instead of deleting records.
+ * No structural deletions were performed to maintain raw dataset integrity.
+
+  **3. Referential Integrity Validation**  
+
+To ensure accurate relational joins and prevent data distortion during analysis, foreign key relationships were validated across core transactional tables.
