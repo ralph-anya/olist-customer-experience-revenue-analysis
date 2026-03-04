@@ -16,5 +16,17 @@ This SQL-based analysis connects revenue trends, delivery performance, customer 
 
 ## Dataset Overview
 
- * Dataset: Brazilian E-Commerce Public Dataset by Olist. Can be accessed via this link [olist_dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+ * Dataset: Brazilian E-Commerce Public Dataset by Olist. (Can be accessed via this link [olist_dataset])(https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
  * Source: Kaggle
+ * Tables used:
+     * orders
+     * order_items
+     * order_reviews
+     * customers
+
+## Data Handling & Preparation
+
+### Data Importation
+
+ * Created raltional tables
+ * Defined appropriate data types
