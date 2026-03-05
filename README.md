@@ -64,6 +64,28 @@ To ensure accurate relational joins and prevent data distortion during analysis,
 
 ## Analysis (Handling Business Questions)
 
-**1. Monthly Revenue Evolution Over Time**
+**1. How has Revenue Evolved Over Time**
 
-# ***Paste the tableau visual here/ screenshot of it***
+***Paste the tableau visual here/ screenshot of it***
+
+**2. What percentage of orders are delivered late, and does late delivery increase during high-revenue periods?**
+
+***Paste the tableau visual here, depicting graph of revenue over time and delivery date over time (juxtaposition)***
+
+**3. How does delivery performance impact customer satisfaction (review scores)?**
+
+***Paste the tableau visual here/ screenshot of it***
+
+**4. How does customer satisfaction influence repeat purchase behaviour?**
+
+***Paste the tableau visual here/ screenshot of it***
+
+**5. What is the overall customer repeat purchase rate, and what does it imply about revenue sustainability?**
+
+***Paste the tableau visual here/ screenshot of it***
+
+## Final Business Insights
+
+## Strategic Recommendations
+
+## Skills Demonstrated
