@@ -61,3 +61,9 @@ Columns were checked for nulls based on analytical impact. Primary and foreign k
   **3. Referential Integrity Validation**  
 
 To ensure accurate relational joins and prevent data distortion during analysis, foreign key relationships were validated across core transactional tables.
+
+## Analysis (Handling Business Questions)
+
+**1. Monthly Revenue Evolution Over Time**
+
+ ***#Paste the tableau visual here/ screenshot of it#***
