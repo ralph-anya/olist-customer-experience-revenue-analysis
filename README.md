@@ -101,3 +101,8 @@ To ensure accurate relational joins and prevent data distortion during analysis,
  * Revenue performance analysis
  * Data-driven recommendation development
  * Data storytelling
+
+## Tools Used
+
+ * MySQL
+ * Excel
