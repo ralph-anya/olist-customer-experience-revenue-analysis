@@ -62,27 +62,16 @@ Columns were checked for nulls based on analytical impact. Primary and foreign k
 
 To ensure accurate relational joins and prevent data distortion during analysis, foreign key relationships were validated across core transactional tables.
 
-## Analysis (Handling Business Questions)
+## Key Findings 
 
 **1. How has Revenue Evolved Over Time**
 
-***Paste the tableau visual here/ screenshot of it***
+ * Revenue demonstrates consistent year-over-year growth, with strong acceleration in 2018 and a noticeable spike in the month of Novermber.
+ * Late delivery rate generally ranges between 0-10%, indicating scalable logistics infrastructure. The highest spike in March 2018, not November (the highest revenue month) implies date deliveries during these months are due to other reasons, and not due to high total orders.
+ * Late delivery reduces average review scores by approximately 1.7 stars, demonstrating a strong negative impact of operational delays on customer satisfaction.
+ * Customer satisfaction does not meaningfully influence repeat purchase behaviour. There is no strong relationship between review score and number of orders.
+ * There is a low repeat purchase rate (~3%), meaning a vast majority of customers make only a single purchase. This suggests low customer retention and highlights a potential opportunity for loyalty programs or retention strategies.
 
-**2. What percentage of orders are delivered late, and does late delivery increase during high-revenue periods?**
-
-***Paste the tableau visual here, depicting graph of revenue over time and delivery date over time (juxtaposition)***
-
-**3. How does delivery performance impact customer satisfaction (review scores)?**
-
-***Paste the tableau visual here/ screenshot of it***
-
-**4. How does customer satisfaction influence repeat purchase behaviour?**
-
-***Paste the tableau visual here/ screenshot of it***
-
-**5. What is the overall customer repeat purchase rate, and what does it imply about revenue sustainability?**
-
-***Paste the tableau visual here/ screenshot of it***
 
 ## Final Business Insights
 
