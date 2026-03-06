@@ -64,8 +64,6 @@ To ensure accurate relational joins and prevent data distortion during analysis,
 
 ## Key Findings 
 
-**1. How has Revenue Evolved Over Time**
-
  * Revenue demonstrates consistent year-over-year growth, with strong acceleration in 2018 and a noticeable spike in the month of Novermber.
  * Late delivery rate generally ranges between 0-10%, indicating scalable logistics infrastructure. The highest spike in March 2018, not November (the highest revenue month) implies late deliveries during these months are due to other reasons, and not due to high total orders.
  * Late delivery reduces average review scores by approximately 1.7 stars, demonstrating a strong negative impact of operational delays on customer satisfaction.
