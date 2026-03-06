@@ -67,14 +67,37 @@ To ensure accurate relational joins and prevent data distortion during analysis,
 **1. How has Revenue Evolved Over Time**
 
  * Revenue demonstrates consistent year-over-year growth, with strong acceleration in 2018 and a noticeable spike in the month of Novermber.
- * Late delivery rate generally ranges between 0-10%, indicating scalable logistics infrastructure. The highest spike in March 2018, not November (the highest revenue month) implies date deliveries during these months are due to other reasons, and not due to high total orders.
+ * Late delivery rate generally ranges between 0-10%, indicating scalable logistics infrastructure. The highest spike in March 2018, not November (the highest revenue month) implies late deliveries during these months are due to other reasons, and not due to high total orders.
  * Late delivery reduces average review scores by approximately 1.7 stars, demonstrating a strong negative impact of operational delays on customer satisfaction.
  * Customer satisfaction does not meaningfully influence repeat purchase behaviour. There is no strong relationship between review score and number of orders.
  * There is a low repeat purchase rate (~3%), meaning a vast majority of customers make only a single purchase. This suggests low customer retention and highlights a potential opportunity for loyalty programs or retention strategies.
 
-
 ## Final Business Insights
 
+* Olist is experiencing a strong demand growth and market expansion, with peak sales periods significantly contributing to annual revenue.
+* Delivery delays are not primarily driven by high order volume, but likely by operational inefficiencies or external disruptions such as warehouse processing days, courier partner performance, etc.
+* Late delivery is one of the most influential factors affecting customer experience on the platform.
+* Customer satisfaction does not automatically translate into repeat buying behaviour. Customers may be purchasing based on product availability, pricing, etc.
+* A 3% repeat purchase rate implies the business relies heavily on new customer acquisition rather than repeat customers, indicating limited customer loyalty. As such, revenue sustainability is at risk if retention is not improved.
+  
 ## Strategic Recommendations
 
+ * Olist should strategically plan inventory, marketing campaigns and logistics capacity around high demand periods such as November.
+ * Conduct operational diagnostics to identify root causes of late deliveries during non-peak periods.
+ * Focus on retention programs such as customer loyalty programs, offering incentives for second purchases, etc.
+ * Run marketing campaigns targeting past buyers.
+   
 ## Skills Demonstrated
+
+ * Advanced SQL querying
+     * Data Cleaning
+     *  Multi-CTEs
+     *  CASE logic
+     *  Window functions
+     *  Multi-table joins
+     *  Agggregations
+ * Business problem translation
+ * Customer retention analysis
+ * Revenue performance analysis
+ * Data-driven recommendation development
+ * Data storytelling
