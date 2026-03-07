@@ -76,11 +76,11 @@ To ensure accurate relational joins and prevent data distortion during analysis,
 
  * Late delivery reduces average review scores by approximately 1.7 stars, demonstrating a strong negative impact of operational delays on customer satisfaction.
 
-<img width="1020" height="650" alt="average_review_score" src="https://github.com/user-attachments/assets/a4bbc434-103f-4587-89ce-46b10c6da0d1" />
+<img width="626" height="380" alt="average_review_score_small" src="https://github.com/user-attachments/assets/c4700242-7a65-4f5b-9921-0b3b2516b747" />
 
  * Customer satisfaction does not meaningfully influence repeat purchase behaviour. There is no strong relationship between review score and number of orders.
 
-<img width="626" height="380" alt="average_review_score_small" src="https://github.com/user-attachments/assets/c4700242-7a65-4f5b-9921-0b3b2516b747" />
+<img width="544" height="326" alt="avg_orders_per_customer_small" src="https://github.com/user-attachments/assets/b1278d49-8ae3-43c6-9f35-e79186d86c66" />
 
  * There is a low repeat purchase rate (~3%), meaning a vast majority of customers make only a single purchase. This suggests low customer retention and highlights a potential opportunity for loyalty programs or retention strategies.
    
