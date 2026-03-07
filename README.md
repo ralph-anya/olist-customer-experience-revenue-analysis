@@ -80,7 +80,7 @@ To ensure accurate relational joins and prevent data distortion during analysis,
 
  * Customer satisfaction does not meaningfully influence repeat purchase behaviour. There is no strong relationship between review score and number of orders.
 
-<img width="1080" height="704" alt="avg_orders_per_customer" src="https://github.com/user-attachments/assets/8c39e9d7-1855-40be-8df3-1e56d9080edf" />
+<img width="626" height="380" alt="average_review_score_small" src="https://github.com/user-attachments/assets/c4700242-7a65-4f5b-9921-0b3b2516b747" />
 
  * There is a low repeat purchase rate (~3%), meaning a vast majority of customers make only a single purchase. This suggests low customer retention and highlights a potential opportunity for loyalty programs or retention strategies.
    
