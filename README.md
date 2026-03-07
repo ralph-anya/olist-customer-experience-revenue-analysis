@@ -65,11 +65,9 @@ To ensure accurate relational joins and prevent data distortion during analysis,
 ## Key Findings 
 
  * Revenue demonstrates consistent year-over-year growth, with strong acceleration in 2018 and a noticeable spike in the month of Novermber.
-<img width="1338" height="820" alt="monthly_revenue" src="https://github.com/user-attachments/assets/ebe0211e-2051-473d-85eb-2ca2e0258c01" />    <img width="1376" height="846" alt="running_total" src="https://github.com/user-attachments/assets/7d5174db-03ef-4aa2-91e2-b2664091b354" />
 
-
-
-
+<img width="1376" height="846" alt="running_total" src="https://github.com/user-attachments/assets/7d5174db-03ef-4aa2-91e2-b2664091b354" />
+<img width="1338" height="820" alt="monthly_revenue" src="https://github.com/user-attachments/assets/ebe0211e-2051-473d-85eb-2ca2e0258c01" />    
 
 
  * Late delivery rate generally ranges between 0-10%, indicating scalable logistics infrastructure. The highest spike in March 2018, not November (the highest revenue month) implies late deliveries during these months are due to other reasons, and not due to high total orders. (The first month, that is 2016-09 with a delivery rate of 100%, was ignored as it involved just one delivered order, which turned out to be a late delivery as well).
