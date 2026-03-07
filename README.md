@@ -64,16 +64,24 @@ To ensure accurate relational joins and prevent data distortion during analysis,
 
 ## Key Findings 
 
- * Revenue demonstrates consistent year-over-year growth, with strong acceleration in 2018 and a noticeable spike in the month of Novermber.
+ * Revenue demonstrates consistent year-over-year growth, with strong acceleration in 2018 and a noticeable spike in the month of November.
 
 <img width="1380" height="850" alt="running_total" src="https://github.com/user-attachments/assets/7d3cb88b-7ac6-4ae3-826a-4aa144141a1e" />
 
 <img width="1338" height="820" alt="monthly_revenue" src="https://github.com/user-attachments/assets/ebe0211e-2051-473d-85eb-2ca2e0258c01" />    
 
-
  * Late delivery rate generally ranges between 0-10%, indicating scalable logistics infrastructure. The highest spike in March 2018, not November (the highest revenue month) implies late deliveries during these months are due to other reasons, and not due to high total orders. (The first month, that is 2016-09 with a delivery rate of 100%, was ignored as it involved just one delivered order, which turned out to be a late delivery as well).
+
+<img width="1406" height="808" alt="monthly_late_delivery" src="https://github.com/user-attachments/assets/5bbdebe2-33bc-495f-8aa3-c91a531a17f3" />
+
  * Late delivery reduces average review scores by approximately 1.7 stars, demonstrating a strong negative impact of operational delays on customer satisfaction.
+
+<img width="1020" height="650" alt="average_review_score" src="https://github.com/user-attachments/assets/a4bbc434-103f-4587-89ce-46b10c6da0d1" />
+
  * Customer satisfaction does not meaningfully influence repeat purchase behaviour. There is no strong relationship between review score and number of orders.
+
+<img width="1080" height="704" alt="avg_orders_per_customer" src="https://github.com/user-attachments/assets/8c39e9d7-1855-40be-8df3-1e56d9080edf" />
+
  * There is a low repeat purchase rate (~3%), meaning a vast majority of customers make only a single purchase. This suggests low customer retention and highlights a potential opportunity for loyalty programs or retention strategies.
    
             |repeat_purchase_rate|
