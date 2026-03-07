@@ -42,11 +42,11 @@ To ensure transactional integrity and prevent revenue distortion, primary identi
  * Checked uniqueness of primary keys in:
      * customers
      * orders
-     * order_reviews
  * Verified that no duplicate primary keys existed.
  * For order_items table, where one order can contain multiple products:
      * A composite key (order_id, order_item_id) was used.
-     * Uniqueness of the composite key was validated.
+     * Same was done for the order_reviews table (review_id, order_id used as composite key).
+     * Uniqueness of the composite keys were validated.
      * Confirmed no duplicate composite records.
 
   **2. NULL Value Assessment and Handling**
@@ -65,10 +65,13 @@ To ensure accurate relational joins and prevent data distortion during analysis,
 ## Key Findings 
 
  * Revenue demonstrates consistent year-over-year growth, with strong acceleration in 2018 and a noticeable spike in the month of Novermber.
- * Late delivery rate generally ranges between 0-10%, indicating scalable logistics infrastructure. The highest spike in March 2018, not November (the highest revenue month) implies late deliveries during these months are due to other reasons, and not due to high total orders.
+ * Late delivery rate generally ranges between 0-10%, indicating scalable logistics infrastructure. The highest spike in March 2018, not November (the highest revenue month) implies late deliveries during these months are due to other reasons, and not due to high total orders. (The first month, that is 2016-09 with a delivery rate of 100%, was ignored as it involved just one delivered order, which turned out to be a late delivery as well).
  * Late delivery reduces average review scores by approximately 1.7 stars, demonstrating a strong negative impact of operational delays on customer satisfaction.
  * Customer satisfaction does not meaningfully influence repeat purchase behaviour. There is no strong relationship between review score and number of orders.
  * There is a low repeat purchase rate (~3%), meaning a vast majority of customers make only a single purchase. This suggests low customer retention and highlights a potential opportunity for loyalty programs or retention strategies.
+            |repeat_purchase_rate|
+            |--------------------|
+            |3.0003              |
 
 ## Final Business Insights
 
