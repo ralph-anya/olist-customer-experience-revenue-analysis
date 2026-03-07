@@ -66,6 +66,7 @@ To ensure accurate relational joins and prevent data distortion during analysis,
 
  * Revenue demonstrates consistent year-over-year growth, with strong acceleration in 2018 and a noticeable spike in the month of November.
 
+<img width="1120" height="550" alt="running_total_small" src="https://github.com/user-attachments/assets/2d70ee8f-289f-4df5-b75a-c7ce6150cbdb" />
 
 <img width="1338" height="820" alt="monthly_revenue" src="https://github.com/user-attachments/assets/ebe0211e-2051-473d-85eb-2ca2e0258c01" />    
 
