@@ -70,7 +70,7 @@ To ensure accurate relational joins and prevent data distortion during analysis,
 
  * Late delivery rate generally ranges between 0-10%, indicating scalable logistics infrastructure. The highest spike in March 2018, not November (the highest revenue month) implies late deliveries during these months are due to other reasons, and not due to high total orders. (The first month, that is 2016-09 with a delivery rate of 100%, was ignored as it involved just one delivered order, which turned out to be a late delivery as well).
 
-<img width="744" height="274" alt="monthly_late_delivery_smallest" src="https://github.com/user-attachments/assets/34ba6402-5181-4d43-afb4-9fbaeb9e3347" />
+<img width="816" height="382" alt="monthly_late_delivery_good" src="https://github.com/user-attachments/assets/143f91a1-71a1-4582-b6d5-886530b444b5" />
 
  * Late delivery reduces average review scores by approximately 1.7 stars, demonstrating a strong negative impact of operational delays on customer satisfaction.
 
