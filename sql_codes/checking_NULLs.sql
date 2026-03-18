@@ -63,7 +63,7 @@ SELECT
 FROM order_items
 WHERE freight_value IS NULL;
 
--- 4. 
+-- 4. order_reviews table
 
 SELECT
 	COUNT(*)
